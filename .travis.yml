@@ -16,10 +16,9 @@ cache:
     - $HOME/.pip-cache/
 deploy:
   provider: pypi
-  allow_failure: false
   server: https://testpypi.python.org/pypi
   user: chuim
   password:
-    secure: xEB8GFOxRWVhMX2O/at9DF3Y3xQA71+ZJL5zF/KCyY5aKA7WnerwmRT/4s6HIpC1MG8H8f2sexFywSsOOHSa8TybHtZNDSQEMN2G7Xcynv3u+WEICGDUfanRL+17Q7YjvU7WzdddcTzSmn9DVrv+YqfN+3p6QzWSXhNQWqcDsIk=
+    secure: XEB8GFOxRWVhMX2O/at9DF3Y3xQA71+ZJL5zF/KCyY5aKA7WnerwmRT/4s6HIpC1MG8H8f2sexFywSsOOHSa8TybHtZNDSQEMN2G7Xcynv3u+WEICGDUfanRL+17Q7YjvU7WzdddcTzSmn9DVrv+YqfN+3p6QzWSXhNQWqcDsIk=
   on:
     branch: production
