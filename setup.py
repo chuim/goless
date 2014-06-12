@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='goless-build-tests',
-    version='0.0.1',
+    version='0.0.2',
     author='Rob Galanakis',
     author_email='rob.galanakis@gmail.com',
     description="goless puts Go's channels and select into Python.",
