@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='goless',
+    name='goless-build-tests',
     version='0.0.1',
     author='Rob Galanakis',
     author_email='rob.galanakis@gmail.com',
