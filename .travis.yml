@@ -18,7 +18,8 @@ deploy:
     provider: pypi
     server: https://testpypi.python.org/pypi
     user: "chuim"
-    password: "Gs3/QQD9uLQDv18CvFSQrMdS8Lq5af+fgkcnt+4tzrSeSxRT6bX5FBeR/RX3hJWNFmErpOwfjpWdEb6ypfzpyfPsfjdG6+HGwfkadkzVHhH1WHj44bNW5NY21VRNdEMjd+4xSmamiOUimExanxII4QqLM+NuDKb4Hwlnxden0tA="
+    password:
+      secure: XEB8GFOxRWVhMX2O/at9DF3Y3xQA71+ZJL5zF/KCyY5aKA7WnerwmRT/4s6HIpC1MG8H8f2sexFywSsOOHSa8TybHtZNDSQEMN2G7Xcynv3u+WEICGDUfanRL+17Q7YjvU7WzdddcTzSmn9DVrv+YqfN+3p6QzWSXhNQWqcDsIk=
     on:
         branch: production
 #        tags: true
